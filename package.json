@@ -1,12 +1,12 @@
 {
     "name": "@etomon/attic-server-etomon-location",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A plugin for resolving locations using attic",
     "main": "lib/Atticfile.js",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org",
-    "access": "public"
-  },
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org",
+        "access": "public"
+    },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "grunt",
@@ -46,7 +46,7 @@
         "@etomon/encode-tools": "^2"
     },
     "dependencies": {
-        "@etomon/etomon-location": "^1.0.5",
+        "@etomon/etomon-location": "^1.0.6",
         "@etomon/ioredisdown": "^1.2.2",
         "levelup": "^5.0.1",
         "tslib": "^2.3.0"
