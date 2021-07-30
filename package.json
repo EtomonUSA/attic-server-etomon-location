@@ -1,0 +1,53 @@
+{
+    "name": "@etomon/attic-server-etomon-location",
+    "version": "1.0.0",
+    "description": "A plugin for resolving locations using attic",
+    "main": "lib/Atticfile.js",
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "grunt",
+        "prepare": "grunt"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/EtomonUSA/attic-server-etomon-location"
+    },
+    "contributors": [
+        {
+            "name": "Etomon Team",
+            "email": "open-source@etomon.com",
+            "url": "https://etomon.com"
+        }
+    ],
+    "license": "AGPL-3.0",
+    "bugs": {
+        "url": "https://github.com/EtomonUSA/attic-server-etomon-location/issues"
+    },
+    "devDependencies": {
+        "@etomon/encode-tools": "^2.3.2",
+        "@types/levelup": "^4.3.3",
+        "@znetstar/attic-common": "^3.6.5",
+        "grunt": "^1.4.1",
+        "grunt-contrib-clean": "^2.0.0",
+        "grunt-contrib-copy": "^1.0.0",
+        "grunt-ts": "^6.0.0-beta.22",
+        "grunt-typedoc": "^0.2.4",
+        "ts-node": "^10.1.0",
+        "typedoc": "^0.21.4",
+        "typescript": "^4.3.5"
+    },
+    "homepage": "https://github.com/znetstar/attic-server-google#readme",
+    "peerDependencies": {
+        "@znetstar/attic-common": "^3",
+        "@etomon/encode-tools": "^2"
+    },
+    "dependencies": {
+        "@etomon/etomon-location": "^1.0.5",
+        "@etomon/ioredisdown": "^1.2.2",
+        "levelup": "^5.0.1",
+        "tslib": "^2.3.0"
+    }
+}
