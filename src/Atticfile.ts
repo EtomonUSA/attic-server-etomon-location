@@ -4,13 +4,13 @@ import {
     IPlugin
 } from '@znetstar/attic-common/lib/Server';
 import {IIdentity, IRPC} from "@znetstar/attic-common";
-import {GeoRPCHandler, IGeoRPCHandler} from "@etomon/etomon-location/lib/API/server/routes";
-import {GeoResolverOptions, LocationResolvePriorities} from "@etomon/etomon-location/lib/API/server/GeoResolver";
+import {GeoRPCHandler, IGeoRPCHandler} from "@etomon/etomon-location/lib/api/server/routes";
+import {GeoResolverOptions, LocationResolvePriorities} from "@etomon/etomon-location/lib/api/server/GeoResolver";
 import {GeoResolver} from "@etomon/etomon-location";
 import {EncodingOptions} from "@etomon/encode-tools/lib/IEncodeTools";
 const { IORedisDown } = require('@etomon/ioredisdown');
 const LevelUp = require('LevelUp');
-import {defaultResolvePriorities} from "@etomon/etomon-location/lib/API/server/GeoResolver";
+import {defaultResolvePriorities} from "@etomon/etomon-location/lib/api/server/GeoResolver";
 
 export type AtticServerEtomonLocationRPCHandler = IRPC&IGeoRPCHandler;
 
