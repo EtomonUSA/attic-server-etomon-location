@@ -9,7 +9,7 @@ import {GeoResolverOptions, LocationResolvePriorities} from "@etomon/etomon-loca
 import {GeoResolver} from "@etomon/etomon-location";
 import {EncodingOptions} from "@etomon/encode-tools/lib/IEncodeTools";
 const { IORedisDown } = require('@etomon/ioredisdown');
-const LevelUp = require('LevelUp');
+const LevelUp = require('levelup');
 import {defaultResolvePriorities} from "@etomon/etomon-location/lib/api/server/GeoResolver";
 
 export type AtticServerEtomonLocationRPCHandler = IRPC&IGeoRPCHandler;
