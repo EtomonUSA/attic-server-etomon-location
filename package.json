@@ -3,9 +3,10 @@
     "version": "1.0.0",
     "description": "A plugin for resolving locations using attic",
     "main": "lib/Atticfile.js",
-    "publishConfig": {
-        "registry": "https://registry.npmjs.org"
-    },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "grunt",
