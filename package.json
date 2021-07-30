@@ -1,6 +1,6 @@
 {
     "name": "@etomon/attic-server-etomon-location",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "A plugin for resolving locations using attic",
     "main": "lib/Atticfile.js",
     "publishConfig": {
